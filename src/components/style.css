@@ -1,0 +1,92 @@
+form {
+  display: flex;
+  gap: 20px;
+}
+button {
+  background-color: olive;
+  padding: 5px;
+}
+table {
+  margin-top: 20px;
+}
+.b11 {
+  display: flex;
+  flex-direction: column;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formModal {
+  animation-name: grow;
+  animation-duration: 0.2s;
+  margin: auto;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.formModal .fa-xmark {
+  position: relative;
+  top: -10px;
+  right: -190px;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  min-height: 100vh; /* Full height of the viewport */
+  flex-direction: column;
+}
+.todolist {
+  margin: auto;
+  width: 50%; /* Hoặc kích thước phù hợp với thiết kế của bạn */
+  min-width: 300px; /* Đảm bảo không quá hẹp trên màn hình nhỏ */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Bắt đầu B2 */
+.B2 nav{
+  display: flex;
+  gap: 800px;
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  align-items: center;
+}
+li{
+  list-style-type: none;
+}
+.B2 main{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.product{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product img{
+  width: 200px;
+  height: 200px;
+}
+

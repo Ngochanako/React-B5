@@ -1,0 +1,49 @@
+.b3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.b3 button{
+    width: 200px;
+    background-color: white;
+    color: rgb(194, 72, 28);
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav input{
+    min-width: 300px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    padding: 5px;
+}
+.buttonTr{
+    display: flex;
+    gap: 5px;
+}
+.buttonTr .btn{
+    width: 80px;
+}
+.formModalB3 {
+    animation-name: grow;
+    animation-duration: 0.2s;
+    margin: auto;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .formModalB3 .fa-xmark {
+    position: relative;
+    top: -90px;
+    right: -180px;
+    font-size: 25px;
+  }
