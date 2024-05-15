@@ -118,14 +118,14 @@ export default function B3() {
       <h4>Quản lý sinh viên</h4>
       <button onClick={openModalAdd} className='btn btn-success'>Thêm mới sinh viên</button>
       <div className='nav'>
-        <select name="" id="" onChange={(e:React.ChangeEvent<HTMLSelectElement>)=>{
+        <select defaultValue='sort' name="" id="" onChange={(e:React.ChangeEvent<HTMLSelectElement>)=>{
             if(e.target.value==='increase'){
               filterIncreaseAge();
             }else if(e.target.value==='decrease'){
               filterDecreaseAge();
             }
             }}>
-            <option value="" selected>Sắp xếp theo tuổi</option>
+            <option value="sort">Sắp xếp theo tuổi</option>
             <option value="increase" onClick={filterIncreaseAge}>Tuổi tăng dần</option>
             <option value="decrease" onClick={filterDecreaseAge}>Tuổi giảm dần</option>
         </select>

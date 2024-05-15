@@ -69,6 +69,7 @@ table {
   color: white;
   padding: 5px;
   align-items: center;
+  position: relative;
 }
 li{
   list-style-type: none;
@@ -88,5 +89,29 @@ li{
 .product img{
   width: 200px;
   height: 200px;
+}
+.modalB2{
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  z-index: 1000;
+  background-color: rgb(15, 14, 14);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.modalB2 hr{
+  color:1px solid white;
+}
+.productCart{
+  display: flex;
+  gap: 5px;
+}
+.productCart button{
+  width: 5px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
